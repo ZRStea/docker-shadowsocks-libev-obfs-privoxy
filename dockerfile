@@ -15,6 +15,8 @@ RUN set -ex && \
                                 tar \
                                 git \
                                 automake \
+                                c-ares \
+                                c-ares-dev \
                                 udns-dev && \
     cd /tmp && \
     git clone --depth=1 https://github.com/shadowsocks/simple-obfs.git . && \
